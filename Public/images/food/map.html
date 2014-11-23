@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+<meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+<title>成都美食地图</title>
+<style type="text/css">
+    html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+    <script charset="gbk" src="http://www.baidu.com/js/opensug.js"></script>
+   <div style="width:600px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+</body>
+<script type="text/javascript">
+    
+    function initMap(){
+        createMap();
+        setMapEvent();
+        addMapControl();
+        addMarker();
+    }
+    
+    
+    function createMap(){
+        var map = new BMap.Map("dituContent");
+        var point = new BMap.Point(104.084224,30.660451);//定义一个中心点坐标
+        map.centerAndZoom(point,13);
+        window.map = map;
+    }
+    
+    
+    function setMapEvent(){
+        map.enableDragging();
+        map.enableScrollWheelZoom();
+        map.enableDoubleClickZoom();
+        map.enableKeyboard();
+    }
+    
+    
+    function addMapControl(){
+        
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+    var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+    var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    
+    var markerArr = [{title:"川西坝子",content:"<b>让您泪流满面的火锅体验</b><br /><p align=\"right\"><img src=\"S46622T1323855516134.jpg\" width=\"128\" height\"128\" />",point:"104.040174|30.644016",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+		 ,{title:"红杏酒家（羊西店）",content:"<b>四川老牌的川菜馆，保持了一贯的四川风味</b><br /><p align=\"right\"><img src=\"photo-200991717172440192.jpg\" width=\"128\" height\"128\" />",point:"104.027134|30.695953",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+		 ,{title:"蜀九香（紫荆店）",content:"<b>典型”的川式火锅</b><br /><p align=\"right\"><img src=\"c579dc47591d3a5e0d9cad95dc3597d2.jpg\" width=\"128\" height\"128\" />",point:"104.05996|30.618936",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+		 ,{title:"陈麻婆豆腐(西玉龙街)",content:"<b>性价比很高的一家老字号饭店</b><br /><p align=\"right\"><img src=\"20110914161419_18975.jpg\" width=\"128\" height\"128\" />",point:"104.077015|30.671362",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+		 ,{title:"廖老妈蹄花总店",content:"<b>汤汁浓郁有嚼劲</b><br /><p align=\"right\"><img src=\"U5655P841DT20101215145024.jpg\" width=\"128\" height\"128\" />",point:"104.066952|30.662901",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+		 ,{title:"龙抄手（春熙路店）",content:"<b>成都最有名的小吃店</b><br /><p align=\"right\"><img src=\"DSC04007.JPG\" width=\"128\" height\"128\" />",point:"104.082628|30.660956",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+		 ,{title:"顺兴老茶馆（沙湾店）",content:"<b>体验老成都文化的绝妙选择!</b><br /><p align=\"right\"><img src=\"200742494917986.jpg\" width=\"128\" height\"128\" />",point:"104.057299|30.697851",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+		 ,{title:"玉林串串香（金沙路店",content:"<b>成都第一家串串香</b><br /><p align=\"right\"><img src=\"玉林.jpg\" width=\"128\" height\"128\" />",point:"104.050674|30.694057",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+		 ,{title:"明婷饭店",content:"<b>成都最牛苍蝇馆</b><br /><p align=\"right\"><img src=\"005002008_8791_1.jpg\" width=\"128\" height\"128\" />",point:"104.095048|30.679046",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+		 ,{title:"刘记铺盖面",content:"<b>大众心中最好吃的小面馆</b><br /><p align=\"right\"><img src=\"20064523354578079.jpg\" width=\"128\" height\"128\" /></p>",point:"104.032687|30.70313",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+		 ];
+   
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+			var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+			var iw = createInfoWindow(i);
+			var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+			marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+			
+			(function(){
+				var index = i;
+				var _iw = createInfoWindow(i);
+				var _marker = marker;
+				_marker.addEventListener("click",function(){
+				    this.openInfoWindow(_iw);
+			    });
+			    _iw.addEventListener("open",function(){
+				    _marker.getLabel().hide();
+			    })
+			    _iw.addEventListener("close",function(){
+				    _marker.getLabel().show();
+			    })
+				label.addEventListener("click",function(){
+				    _marker.openInfoWindow(_iw);
+			    })
+				if(!!json.isOpen){
+					label.hide();
+					_marker.openInfoWindow(_iw);
+				}
+			})()
+        }
+    }
+    
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+    
+    initMap();
+</script>
+</html>

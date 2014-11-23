@@ -1,0 +1,58 @@
+
+#content {
+    height:auto;
+    width:80%;
+    margin:30px auto;
+}
+
+#coment {
+    width:700px;
+    height:50px;
+    margin-left:138px;
+    margin-top:26px;
+    position:absolute;
+    
+}
+
+
+
+#new {
+    margin-left:140px;
+    position:absolute;
+}
+
+.face {
+    position:absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: 140px;
+    margin-top:85px;
+    z-index: 100;
+    display: block;
+    background:url(../images/wink.png) no-repeat;
+}
+
+.info1 {
+    padding:10px;
+    margin:-45px 100px;
+}
+
+.photo {
+ 
+    width:70px;
+    height:70px;
+    margin-top: 20px;
+}
+
+.username {
+    font-size:14px;
+    padding:16px;
+    position: relative;
+    top:1opx;
+}
+
+#tijiao1 {
+    width:150px;
+    margin-top:100px;
+    margin-left:680px;
+}

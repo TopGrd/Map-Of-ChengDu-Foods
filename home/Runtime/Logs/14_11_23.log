@@ -1,0 +1,237 @@
+[ 2014-11-23T21:23:28+08:00 ] 0.0.0.0 /cdms/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.030337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.162448s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.240765s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.439128s ]
+SQL: SELECT * FROM `think_food` ORDER BY click DESC  [ RunTime:0.823965s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: user_id G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 168 行.
+NOTIC: [8] Undefined variable: icon G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 185 行.
+NOTIC: [8] Undefined variable: user_name G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 185 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.141270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141386s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.014738s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001829s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020989s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.014090s ]
+INFO: [ view_end ] --END-- [ RunTime:0.014207s ]
+
+[ 2014-11-23T21:23:36+08:00 ] 0.0.0.0 /cdms/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003379s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.003134s ]
+SQL: SELECT * FROM `think_food` ORDER BY click DESC  [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: user_id G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 168 行.
+NOTIC: [8] Undefined variable: icon G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 185 行.
+NOTIC: [8] Undefined variable: user_name G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 185 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009676s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000473s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001952s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000930s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2014-11-23T21:23:41+08:00 ] 0.0.0.0 /cdms/index.php/User/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.130221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.130312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Undefined index: name G:\xampp\htdocs\cdms\home\Lib\Action\UserAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.118486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118578s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000587s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000564s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000424s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000872s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2014-11-23T21:23:42+08:00 ] 0.0.0.0 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+ERR: 非法操作:images
+
+[ 2014-11-23T21:25:03+08:00 ] 0.0.0.0 /cdms/index.php/Food/addClick/food_id/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001553s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.004594s ]
+SQL: SELECT * FROM `think_food` LIMIT 1   [ RunTime:0.000518s ]
+SQL: UPDATE `think_food` SET `name`='陈麻婆豆腐',`introduction`='性价比很高的一家老字号饭店，经典的是他们家的麻婆豆腐， 12元小份，20元大份的，但是所谓的大份也只是很小一盆。豆腐浸润在辣红油中，上面散了一层孜然粉，有一点肉糜和葱，不算太辣，味道很浓。 水煮鱼，鱼肉鲜嫩，入味，但是刺儿多还都是小刺，底料还有绿叶菜和豆芽、老豆腐； 鸡丝凉面，爽口，开胃～ 麻婆豆腐，木有想象的辣，挺油的～ 毛血旺，上面是一层油，底下其实是汤，食材种类很多，很好吃～ 宫保鸡丁，酸甜口味的，花生超级多～ 豌豆尖，挺新鲜的，搭配辣的吃～ 樟茶鸭，很香，有几块皮下脂肪很多有点油腻，但是鸭肉还是很嫩很香的，略微偏咸； 鸡丝凉皮，酸甜辣味道综合，凉皮滑滑嫩嫩的，这道小菜在夏天吃会很赞； 醉豆花，有点类似于上海的水果羹，不过里面放了酒酿和豆腐（原来豆腐还能做甜品），喝起来并不是很甜；',`image`='/cdms/Public/images/1.jpg',`address`=' 1：骡马市店（青羊区西玉龙街197号，电话：028-86754512） 2： 青华路店（青华路10号附10-12号, 电话：028-87317216）    3 ： 文殊院店（文殊坊白云寺街30号） 4：  成都北站店（二环路北三段(成都北站对面)）   5：大石西路店（大石西路80号附89号）',`state`=1,`star`=4,`user_id`=1,`click`=45 WHERE ( `id` = 1 ) [ RunTime:0.224085s ]
+
+[ 2014-11-23T21:25:04+08:00 ] 0.0.0.0 /cdms/index.php/Food/index/food_id/3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.006217s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.044380s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.024629s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000628s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000731s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 3 )  [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: comment G:\xampp\htdocs\cdms\home\Runtime\Cache\a3007765fa4b3bd7b5cdf84bc6d6e4ef.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.102124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102226s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000882s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000831s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003507s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000776s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2014-11-23T21:31:38+08:00 ] 0.0.0.0 /cdms/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.028561s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.006272s ]
+SQL: SELECT * FROM `think_food` ORDER BY click DESC  [ RunTime:0.000920s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: user_id G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 168 行.
+NOTIC: [8] Undefined variable: icon G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 185 行.
+NOTIC: [8] Undefined variable: user_name G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 185 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014667s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000718s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000608s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000497s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002736s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000892s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2014-11-23T21:31:43+08:00 ] 0.0.0.0 /cdms/index.php/Food/addClick/food_id/6
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001072s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.040107s ]
+SQL: SELECT * FROM `think_food` LIMIT 1   [ RunTime:0.000664s ]
+SQL: UPDATE `think_food` SET `name`='陈麻婆豆腐',`introduction`='性价比很高的一家老字号饭店，经典的是他们家的麻婆豆腐， 12元小份，20元大份的，但是所谓的大份也只是很小一盆。豆腐浸润在辣红油中，上面散了一层孜然粉，有一点肉糜和葱，不算太辣，味道很浓。 水煮鱼，鱼肉鲜嫩，入味，但是刺儿多还都是小刺，底料还有绿叶菜和豆芽、老豆腐； 鸡丝凉面，爽口，开胃～ 麻婆豆腐，木有想象的辣，挺油的～ 毛血旺，上面是一层油，底下其实是汤，食材种类很多，很好吃～ 宫保鸡丁，酸甜口味的，花生超级多～ 豌豆尖，挺新鲜的，搭配辣的吃～ 樟茶鸭，很香，有几块皮下脂肪很多有点油腻，但是鸭肉还是很嫩很香的，略微偏咸； 鸡丝凉皮，酸甜辣味道综合，凉皮滑滑嫩嫩的，这道小菜在夏天吃会很赞； 醉豆花，有点类似于上海的水果羹，不过里面放了酒酿和豆腐（原来豆腐还能做甜品），喝起来并不是很甜；',`image`='/cdms/Public/images/1.jpg',`address`=' 1：骡马市店（青羊区西玉龙街197号，电话：028-86754512） 2： 青华路店（青华路10号附10-12号, 电话：028-87317216）    3 ： 文殊院店（文殊坊白云寺街30号） 4：  成都北站店（二环路北三段(成都北站对面)）   5：大石西路店（大石西路80号附89号）',`state`=1,`star`=4,`user_id`=1,`click`=46 WHERE ( `id` = 1 ) [ RunTime:0.172509s ]
+
+[ 2014-11-23T21:31:44+08:00 ] 0.0.0.0 /cdms/index.php/Food/index/food_id/6.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000724s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.031479s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.048845s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.026068s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 6 )  [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: comment G:\xampp\htdocs\cdms\home\Runtime\Cache\a3007765fa4b3bd7b5cdf84bc6d6e4ef.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007913s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000390s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000310s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001429s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2014-11-23T21:31:59+08:00 ] 0.0.0.0 /cdms/index.php/Food/addClick/food_id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000726s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.006390s ]
+SQL: SELECT * FROM `think_food` LIMIT 1   [ RunTime:0.000639s ]
+SQL: UPDATE `think_food` SET `name`='陈麻婆豆腐',`introduction`='性价比很高的一家老字号饭店，经典的是他们家的麻婆豆腐， 12元小份，20元大份的，但是所谓的大份也只是很小一盆。豆腐浸润在辣红油中，上面散了一层孜然粉，有一点肉糜和葱，不算太辣，味道很浓。 水煮鱼，鱼肉鲜嫩，入味，但是刺儿多还都是小刺，底料还有绿叶菜和豆芽、老豆腐； 鸡丝凉面，爽口，开胃～ 麻婆豆腐，木有想象的辣，挺油的～ 毛血旺，上面是一层油，底下其实是汤，食材种类很多，很好吃～ 宫保鸡丁，酸甜口味的，花生超级多～ 豌豆尖，挺新鲜的，搭配辣的吃～ 樟茶鸭，很香，有几块皮下脂肪很多有点油腻，但是鸭肉还是很嫩很香的，略微偏咸； 鸡丝凉皮，酸甜辣味道综合，凉皮滑滑嫩嫩的，这道小菜在夏天吃会很赞； 醉豆花，有点类似于上海的水果羹，不过里面放了酒酿和豆腐（原来豆腐还能做甜品），喝起来并不是很甜；',`image`='/cdms/Public/images/1.jpg',`address`=' 1：骡马市店（青羊区西玉龙街197号，电话：028-86754512） 2： 青华路店（青华路10号附10-12号, 电话：028-87317216）    3 ： 文殊院店（文殊坊白云寺街30号） 4：  成都北站店（二环路北三段(成都北站对面)）   5：大石西路店（大石西路80号附89号）',`state`=1,`star`=4,`user_id`=1,`click`=47 WHERE ( `id` = 1 ) [ RunTime:0.107315s ]
+
+[ 2014-11-23T21:32:00+08:00 ] 0.0.0.0 /cdms/index.php/Food/index/food_id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000751s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.006893s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007837s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.004189s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 2 )  [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: comment G:\xampp\htdocs\cdms\home\Runtime\Cache\a3007765fa4b3bd7b5cdf84bc6d6e4ef.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011424s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000496s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000712s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000750s ]
+

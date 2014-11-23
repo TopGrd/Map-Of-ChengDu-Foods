@@ -1,0 +1,1039 @@
+[ 2014-02-25T11:16:20+08:00 ] 127.0.0.1 /cdms/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.084389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.095807s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.036336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036740s ]
+NOTIC: [8] Undefined index: name D:\Web\wamp\www\cdms\home\Lib\Action\UserAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.241521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.241840s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015627s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008344s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007603s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004831s ]
+
+[ 2014-02-25T11:16:21+08:00 ] 127.0.0.1 /cdms/index.php/User/bootstrap/css/bootstrap.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+ERR: 非法操作:bootstrap
+
+[ 2014-02-25T11:16:21+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008105s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+ERR: 非法操作:images
+
+[ 2014-02-25T11:16:21+08:00 ] 127.0.0.1 /cdms/index.php/User/css/main.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002288s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:16:21+08:00 ] 127.0.0.1 /cdms/index.php/User/css/flat-ui.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001870s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:16:26+08:00 ] 127.0.0.1 /cdms/index.php/User/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001028s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Undefined index: name D:\Web\wamp\www\cdms\home\Lib\Action\UserAction.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012672s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000542s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000497s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002284s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2014-02-25T11:16:26+08:00 ] 127.0.0.1 /cdms/index.php/User/css/main.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:16:26+08:00 ] 127.0.0.1 /cdms/index.php/User/bootstrap/css/bootstrap.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+ERR: 非法操作:bootstrap
+
+[ 2014-02-25T11:16:26+08:00 ] 127.0.0.1 /cdms/index.php/User/css/flat-ui.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002110s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:16:26+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery.ui.touch-punch.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:16:26+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001866s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002094s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:16:26+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap-select.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001272s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:16:26+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap-switch.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001290s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:16:26+08:00 ] 127.0.0.1 /cdms/index.php/User/js/flatui-checkbox.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001241s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:16:26+08:00 ] 127.0.0.1 /cdms/index.php/User/js/flatui-radio.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001363s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:16:27+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002703s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002985s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:16:27+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery-ui-1.10.3.custom.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003411s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:16:27+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001128s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+ERR: 非法操作:images
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002075s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+NOTIC: [8] Undefined index: name D:\Web\wamp\www\cdms\home\Lib\Action\UserAction.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015665s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002525s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000807s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/css/main.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001706s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002129s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002356s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005998s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery-ui-1.10.3.custom.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002318s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002519s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/js/flatui-radio.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002136s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap-select.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/css/flat-ui.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002100s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/js/flatui-checkbox.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001849s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery.ui.touch-punch.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.059953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.060175s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/bootstrap/css/bootstrap.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002180s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002393s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+ERR: 非法操作:bootstrap
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap-switch.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002132s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002448s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:19:43+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+ERR: 非法操作:images
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8] Undefined index: name D:\Web\wamp\www\cdms\home\Lib\Action\UserAction.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017476s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000820s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000631s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003037s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002210s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery-ui-1.10.3.custom.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/css/flat-ui.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001863s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/css/main.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001806s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002845s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/flatui-radio.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002231s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery.ui.touch-punch.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002097s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/bootstrap/css/bootstrap.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+ERR: 非法操作:bootstrap
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010159s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007464s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap-switch.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001737s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/flatui-checkbox.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap-select.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002453s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002736s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002824s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+ERR: 非法操作:images
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [8] Undefined index: name D:\Web\wamp\www\cdms\home\Lib\Action\UserAction.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008795s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000859s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000587s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002804s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002453s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002677s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery-ui-1.10.3.custom.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011369s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006450s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery.ui.touch-punch.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002099s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002306s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/flatui-radio.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.016202s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/css/main.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005917s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011710s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002447s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/css/flat-ui.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.021307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.021609s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:30:23+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap-select.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:24+08:00 ] 127.0.0.1 /cdms/index.php/User/bootstrap/css/bootstrap.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.031108s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+ERR: 非法操作:bootstrap
+
+[ 2014-02-25T11:30:24+08:00 ] 127.0.0.1 /cdms/index.php/User/js/flatui-checkbox.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002679s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:24+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap-switch.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002539s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002815s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:30:24+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001136s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+ERR: 非法操作:images
+
+[ 2014-02-25T11:31:35+08:00 ] 127.0.0.1 /cdms/index.php/User/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002393s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+NOTIC: [8] Undefined index: name D:\Web\wamp\www\cdms\home\Lib\Action\UserAction.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010105s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000843s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000770s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000884s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2014-02-25T11:31:35+08:00 ] 127.0.0.1 /cdms/index.php/User/bootstrap/css/bootstrap.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003725s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+ERR: 非法操作:bootstrap
+
+[ 2014-02-25T11:31:36+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:31:36+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery.ui.touch-punch.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002440s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002900s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:31:36+08:00 ] 127.0.0.1 /cdms/index.php/User/css/flat-ui.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001745s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007292s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:31:36+08:00 ] 127.0.0.1 /cdms/index.php/User/js/flatui-radio.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001709s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:31:36+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001899s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002126s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:31:36+08:00 ] 127.0.0.1 /cdms/index.php/User/js/jquery-ui-1.10.3.custom.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002112s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003087s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:31:36+08:00 ] 127.0.0.1 /cdms/index.php/User/css/main.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009294s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007851s ]
+ERR: 非法操作:css
+
+[ 2014-02-25T11:31:36+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap-select.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002768s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:31:36+08:00 ] 127.0.0.1 /cdms/index.php/User/js/flatui-checkbox.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001742s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002012s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:31:36+08:00 ] 127.0.0.1 /cdms/index.php/User/js/bootstrap-switch.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002452s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+ERR: 非法操作:js
+
+[ 2014-02-25T11:31:36+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002051s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002403s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+ERR: 非法操作:images
+
+[ 2014-02-25T13:23:30+08:00 ] 127.0.0.1 /cdms/index.php/User/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+NOTIC: [8] Undefined index: name D:\Web\wamp\www\cdms\home\Lib\Action\UserAction.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009307s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000527s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000513s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000366s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002789s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000802s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2014-02-25T13:23:31+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001816s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001971s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+ERR: 非法操作:images
+
+[ 2014-02-25T13:23:36+08:00 ] 127.0.0.1 /cdms/index.php/User/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.038347s ]
+SQL: INSERT INTO `think_user` (`name`,`psw`,`email`,`sex`,`local`) VALUES ('d123','202cb962ac59075b964b07152d234b70','123',0,0) [ RunTime:0.315072s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\Web\wamp\www\cdms\Common\functions.php 第 566 行.
+
+[ 2014-02-25T13:23:36+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000723s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017991s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000639s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000497s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002920s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2014-02-25T13:23:36+08:00 ] 127.0.0.1 /cdms/index.php/Public/css/zhu.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:23:36+08:00 ] 127.0.0.1 /cdms/index.php/Public/css/flat-ui.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003411s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003609s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:23:36+08:00 ] 127.0.0.1 /cdms/index.php/Public/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:23:36+08:00 ] 127.0.0.1 /cdms/index.php/Public/bootstrap/css/bootstrap.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003816s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:23:36+08:00 ] 127.0.0.1 /cdms/index.php/Public/JS/move.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015047s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:23:39+08:00 ] 127.0.0.1 /cdms/index.php/Public/images/icons/svg/compas.svg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002269s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:30+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016562s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000612s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000386s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002350s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000646s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2014-02-25T13:24:30+08:00 ] 127.0.0.1 /cdms/index.php/Public/css/flat-ui.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:30+08:00 ] 127.0.0.1 /cdms/index.php/Public/css/zhu.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:30+08:00 ] 127.0.0.1 /cdms/index.php/Public/bootstrap/css/bootstrap.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:30+08:00 ] 127.0.0.1 /cdms/index.php/Public/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:30+08:00 ] 127.0.0.1 /cdms/index.php/Public/JS/move.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.044458s ]
+INFO: [ route_check ] --END-- [ RunTime:0.044660s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002905s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:31+08:00 ] 127.0.0.1 /cdms/index.php/Public/images/icons/svg/compas.svg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002545s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:31+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002238s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003622s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032716s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000747s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000754s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003543s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001067s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2014-02-25T13:24:31+08:00 ] 127.0.0.1 /cdms/index.php/Public/JS/move.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:31+08:00 ] 127.0.0.1 /cdms/index.php/Public/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:31+08:00 ] 127.0.0.1 /cdms/index.php/Public/css/flat-ui.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008700s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:31+08:00 ] 127.0.0.1 /cdms/index.php/Public/bootstrap/css/bootstrap.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003757s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001780s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:31+08:00 ] 127.0.0.1 /cdms/index.php/Public/css/zhu.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003694s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:31+08:00 ] 127.0.0.1 /cdms/index.php/Public/images/icons/svg/compas.svg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002136s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:32+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000589s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002689s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2014-02-25T13:24:32+08:00 ] 127.0.0.1 /cdms/index.php/Public/css/flat-ui.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001920s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:32+08:00 ] 127.0.0.1 /cdms/index.php/Public/JS/move.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:32+08:00 ] 127.0.0.1 /cdms/index.php/Public/css/zhu.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:32+08:00 ] 127.0.0.1 /cdms/index.php/Public/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008693s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008948s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:32+08:00 ] 127.0.0.1 /cdms/index.php/Public/bootstrap/css/bootstrap.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002392s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002648s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+ERR: 无法加载模块:Public
+
+[ 2014-02-25T13:24:33+08:00 ] 127.0.0.1 /cdms/index.php/Public/images/icons/svg/compas.svg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+ERR: 无法加载模块:Public
+

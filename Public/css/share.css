@@ -1,0 +1,18 @@
+
+.shareform {
+    width:400px;
+    height:auto;
+    margin:100px auto;
+}
+
+#shareinfo {
+    height:200px;
+}
+
+#tijiao {
+    width:400px;
+}
+body{
+    background:url('../images/10.jpg');
+    color: #1abc9c;
+}

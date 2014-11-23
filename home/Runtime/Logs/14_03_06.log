@@ -1,0 +1,598 @@
+<<<<<<< HEAD
+[ 2014-03-06T12:52:33+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.016356s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.448491s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.089243s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000731s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: user_id G:\xampp\htdocs\cdms\home\Runtime\Cache\a3007765fa4b3bd7b5cdf84bc6d6e4ef.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057988s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001333s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001189s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001007s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001421s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2014-03-06T12:52:54+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000935s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.018691s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.003467s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000189s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: user_id G:\xampp\htdocs\cdms\home\Runtime\Cache\a3007765fa4b3bd7b5cdf84bc6d6e4ef.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007506s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000386s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001970s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2014-03-06T12:53:05+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000796s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009486s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000394s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002254s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000961s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2014-03-06T12:53:16+08:00 ] 127.0.0.1 /cdms/index.php/User/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Undefined index: name G:\xampp\htdocs\cdms\home\Lib\Action\UserAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005951s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000394s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2014-03-06T12:53:17+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000663s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+ERR: 非法操作:images
+
+[ 2014-03-06T12:53:26+08:00 ] 127.0.0.1 /cdms/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000667s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.087240s ]
+SQL: SELECT * FROM `think_user` WHERE ( `name` = 'dhx' ) LIMIT 1   [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.207612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001015s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000797s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003533s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001103s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2014-03-06T12:53:30+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+ERR: 非法操作:images
+
+[ 2014-03-06T12:53:32+08:00 ] 127.0.0.1 /cdms/index.php/User/regist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000768s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined index: name G:\xampp\htdocs\cdms\home\Lib\Action\UserAction.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066368s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000412s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000604s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000777s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2014-03-06T12:53:32+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+ERR: 非法操作:images
+
+[ 2014-03-06T12:53:43+08:00 ] 127.0.0.1 /cdms/index.php/User/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000702s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005584s ]
+SQL: INSERT INTO `think_user` (`name`,`psw`,`email`,`sex`,`local`) VALUES ('123','202cb962ac59075b964b07152d234b70','123',0,0) [ RunTime:0.048079s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\xampp\htdocs\cdms\Common\functions.php 第 566 行.
+
+[ 2014-03-06T12:53:43+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000756s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009238s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000580s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000603s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002469s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2014-03-06T12:53:52+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001289s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009308s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000551s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000482s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002092s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003893s ]
+=======
+[ 2014-03-06T09:17:08+08:00 ] 127.0.0.1 /cdms/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007581s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004873s ]
+NOTIC: [8] Undefined index: name D:\Web\wamp\www\cdms\home\Lib\Action\UserAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058015s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003894s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004150s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003671s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016556s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003721s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003841s ]
+
+[ 2014-03-06T09:17:08+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003871s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+ERR: 非法操作:images
+
+[ 2014-03-06T09:17:17+08:00 ] 127.0.0.1 /cdms/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.086679s ]
+SQL: SELECT * FROM `think_user` WHERE ( `name` = 'user' ) LIMIT 1   [ RunTime:0.002148s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\Web\wamp\www\cdms\Common\functions.php 第 566 行.
+
+[ 2014-03-06T09:17:17+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001806s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000722s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000603s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002818s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000734s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2014-03-06T09:17:24+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002638s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002939s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016610s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000705s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000605s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2014-03-06T09:17:40+08:00 ] 127.0.0.1 /cdms/index.php/User/regist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8] Undefined index: name D:\Web\wamp\www\cdms\home\Lib\Action\UserAction.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000637s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000858s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000785s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003740s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000950s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2014-03-06T09:17:40+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001868s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002132s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+ERR: 非法操作:images
+
+[ 2014-03-06T09:17:52+08:00 ] 127.0.0.1 /cdms/index.php/User/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.036657s ]
+SQL: INSERT INTO `think_user` (`name`,`psw`,`email`,`sex`,`local`) VALUES ('mtbook','202cb962ac59075b964b07152d234b70','123',0,1) [ RunTime:0.137741s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\Web\wamp\www\cdms\Common\functions.php 第 566 行.
+
+[ 2014-03-06T09:17:52+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001717s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022806s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000585s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000433s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002777s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2014-03-06T09:18:03+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001148s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.047233s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.024344s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.018744s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000488s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000403s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000211s ]
+NOTIC: [8] Undefined offset: 1 D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013047s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000671s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000595s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002646s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2014-03-06T09:18:15+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020137s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002650s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000700s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000562s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005662s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001301s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2014-03-06T09:18:34+08:00 ] 127.0.0.1 /cdms/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001768s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [8] Undefined index: name D:\Web\wamp\www\cdms\home\Lib\Action\UserAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010632s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000602s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000628s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002641s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2014-03-06T09:18:34+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002171s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+ERR: 非法操作:images
+
+[ 2014-03-06T09:18:41+08:00 ] 127.0.0.1 /cdms/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.044720s ]
+SQL: SELECT * FROM `think_user` WHERE ( `name` = 'mtbook' ) LIMIT 1   [ RunTime:0.001369s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\Web\wamp\www\cdms\Common\functions.php 第 566 行.
+
+[ 2014-03-06T09:18:41+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001654s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001888s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030218s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000701s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000597s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002781s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2014-03-06T09:18:47+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.014634s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.071301s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.027537s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000300s ]
+NOTIC: [8] Undefined offset: 1 D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008918s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000533s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-03-06T09:18:52+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.058510s ]
+SQL: INSERT INTO `think_comment` (`user_id`,`food_id`,`content`,`date`,`state`,`toUser_id`,`toComment_id`) VALUES (3,1,'123456','2014-03-06',0,0,0) [ RunTime:0.112665s ]
+
+[ 2014-03-06T09:19:43+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.050448s ]
+SQL: INSERT INTO `think_comment` (`user_id`,`food_id`,`content`,`date`,`state`,`toUser_id`,`toComment_id`) VALUES (3,1,'123456','2014-03-06',0,0,0) [ RunTime:0.114445s ]
+
+[ 2014-03-06T09:19:44+08:00 ] 127.0.0.1 /cdms/index.php/Food/index/food_id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001909s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002120s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.043725s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.019139s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.022535s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000266s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000271s ]
+NOTIC: [8] Undefined offset: 3 D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010567s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000554s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003025s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000979s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2014-03-06T09:21:32+08:00 ] 127.0.0.1 /cdms/index.php/Food/index/food_id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003470s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.044888s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.021585s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.030878s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000213s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000144s ]
+NOTIC: [8] Undefined offset: 3 D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008947s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000646s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000590s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002626s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2014-03-06T09:22:12+08:00 ] 127.0.0.1 /cdms/index.php/Food/index/food_id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002387s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002607s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.047642s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.023034s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.020682s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000404s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000295s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000210s ]
+NOTIC: [8] Undefined offset: 3 D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009146s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000529s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002220s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000636s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000723s ]
+>>>>>>> 14f80f302008bc045df7674d00a9fb8f74b7473b
+

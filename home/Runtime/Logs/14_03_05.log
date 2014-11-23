@@ -1,0 +1,974 @@
+[ 2014-03-05T11:40:40+08:00 ] 127.0.0.1 /cdms/index.php/Food
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009815s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007537s ]
+NOTIC: [8] Undefined index: food_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 6 行.
+NOTIC: [8] Undefined index: foor_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.028018s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.024832s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.035845s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = null ) AND ( `toComment_id` = 0 )  [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.183762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183957s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.012802s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.022481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006870s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.049309s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.021315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.021445s ]
+
+[ 2014-03-05T11:40:53+08:00 ] 127.0.0.1 /cdms/index.php/Food
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002249s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+NOTIC: [8] Undefined index: food_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.088097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088304s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001010s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000743s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000718s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003856s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001202s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2014-03-05T11:41:01+08:00 ] 127.0.0.1 /cdms/index.php/Food?food_id%20=%201
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002355s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] Undefined index: food_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009064s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000763s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000966s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004013s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2014-03-05T11:41:30+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002226s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+NOTIC: [8] Undefined index: foor_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.023640s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.017339s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = null ) AND ( `toComment_id` = 0 )  [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010447s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000705s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000704s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000804s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2014-03-05T11:42:15+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+NOTIC: [8] Undefined index: foor_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.032823s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.023981s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = null ) AND ( `toComment_id` = 0 )  [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: dump D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 36 行.
+
+[ 2014-03-05T11:42:24+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+NOTIC: [8] Undefined index: foor_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.023967s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.019110s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = null ) AND ( `toComment_id` = 0 )  [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011134s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001982s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001809s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000823s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005971s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001065s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2014-03-05T11:43:11+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8] Undefined variable: food_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 9 行.
+NOTIC: [8] Undefined index: foor_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.028638s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.019441s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = null ) AND ( `toComment_id` = 0 )  [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009433s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000758s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000654s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000532s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002937s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000769s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2014-03-05T11:43:26+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [8] Undefined index: foor_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.026351s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.027749s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = null ) AND ( `toComment_id` = 0 )  [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001341s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005145s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-03-05T11:43:37+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002278s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+NOTIC: [8] Undefined index: foor_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.047033s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.027480s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = null ) AND ( `toComment_id` = 0 )  [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008578s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000531s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002655s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2014-03-05T11:43:53+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.025053s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.018921s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.032452s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 ) AND ( `toComment_id` = 0 )  [ RunTime:0.005474s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017117s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002043s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001807s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001182s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007137s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2014-03-05T11:56:11+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001313s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.023823s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.030251s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000628s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 ) AND ( `toComment_id` = 0 )  [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015052s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000540s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002584s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2014-03-05T12:47:11+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006444s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005086s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.026965s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.021270s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000645s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 ) AND ( `toComment_id` = 0 )  [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039597s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003903s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004297s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003889s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017611s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003791s ]
+
+[ 2014-03-05T12:56:08+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.019429s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.026373s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000785s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012199s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000595s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000760s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003453s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2014-03-05T12:56:09+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001638s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001771s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.044782s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.029201s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000447s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012460s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000991s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000645s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000553s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003186s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2014-03-05T13:02:02+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.033721s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.021314s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000545s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009199s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000720s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000650s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000529s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003086s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000998s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2014-03-05T13:02:24+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002386s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.031531s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.022416s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011017s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000670s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002950s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000761s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2014-03-05T13:50:15+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.043818s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.023900s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000951s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020289s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000774s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000715s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003414s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000890s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2014-03-05T13:50:20+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002235s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094119s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000752s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000809s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003699s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001210s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2014-03-05T13:50:50+08:00 ] 127.0.0.1 /cdms/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001503s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [8] Undefined index: name D:\Web\wamp\www\cdms\home\Lib\Action\UserAction.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013910s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000985s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000808s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003651s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001053s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2014-03-05T13:50:50+08:00 ] 127.0.0.1 /cdms/index.php/User/images/Cursor.cur
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002428s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+ERR: 非法操作:images
+
+[ 2014-03-05T13:50:54+08:00 ] 127.0.0.1 /cdms/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001434s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.023718s ]
+SQL: SELECT * FROM `think_user` WHERE ( `name` = 'user' ) LIMIT 1   [ RunTime:0.000482s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\Web\wamp\www\cdms\Common\functions.php 第 566 行.
+
+[ 2014-03-05T13:50:54+08:00 ] 127.0.0.1 /cdms/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024417s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000799s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000670s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003127s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000852s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2014-03-05T13:51:07+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.035577s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.021291s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000617s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016253s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000806s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000831s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003386s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2014-03-05T13:51:13+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.005528s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+NOTIC: [8] Undefined index: food_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 49 行.
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'dafs','2014-03-05') [ RunTime:0.000646s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'dafs','2014-03-05')
+
+[ 2014-03-05T13:52:13+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+
+[ 2014-03-05T13:52:32+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002061s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+
+[ 2014-03-05T13:52:41+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.004102s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+NOTIC: [8] Undefined index: food_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 50 行.
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'dafs','2014-03-05') [ RunTime:0.000432s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'dafs','2014-03-05')
+
+[ 2014-03-05T14:06:06+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002202s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.004065s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+NOTIC: [8] Undefined index: food_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 51 行.
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'dafs','2014-03-05') [ RunTime:0.000937s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'dafs','2014-03-05')
+
+[ 2014-03-05T14:06:27+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003151s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.017749s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.018725s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000522s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000392s ]
+NOTIC: [8] Undefined variable: user_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011987s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000683s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000632s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003104s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001338s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001525s ]
+
+[ 2014-03-05T14:06:32+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002617s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.006206s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+NOTIC: [8] Undefined index: food_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 51 行.
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'asdf','2014-03-05') [ RunTime:0.000746s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'asdf','2014-03-05')
+
+[ 2014-03-05T14:08:40+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001257s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.031635s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.019931s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000487s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000381s ]
+NOTIC: [8] Undefined variable: user_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014965s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000938s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000999s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000910s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004274s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001189s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2014-03-05T14:08:43+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001308s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.003403s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+NOTIC: [8] Undefined index: food_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 51 行.
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'asdbjl','2014-03-05') [ RunTime:0.000316s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'asdbjl','2014-03-05')
+
+[ 2014-03-05T14:08:49+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.016869s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.021922s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: user_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010833s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000780s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000629s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002869s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2014-03-05T14:08:52+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.017607s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.020589s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000473s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000708s ]
+NOTIC: [8] Undefined variable: user_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010855s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000665s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000544s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002682s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2014-03-05T14:09:00+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001661s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.003562s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+NOTIC: [8] Undefined index: food_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 51 行.
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'baidu \r\n','2014-03-05') [ RunTime:0.000309s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1',null,'baidu \r\n','2014-03-05')
+
+[ 2014-03-05T14:14:27+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.036384s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.022111s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000709s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: user_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015537s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000574s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000583s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002418s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2014-03-05T14:14:32+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.006478s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','','baidu ','2014-03-05') [ RunTime:0.000672s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','','baidu ','2014-03-05')
+
+[ 2014-03-05T14:15:25+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001458s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.003294s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','','baidu ','2014-03-05') [ RunTime:0.000371s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','','baidu ','2014-03-05')
+
+[ 2014-03-05T14:17:02+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001919s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.026312s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.021119s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000599s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: user_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009095s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000630s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000572s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002558s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000701s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2014-03-05T14:17:08+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.013635s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','','baidu\r\n','2014-03-05') [ RunTime:0.000730s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','','baidu\r\n','2014-03-05')
+
+[ 2014-03-05T14:17:41+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003215s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003531s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.044726s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.023133s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000499s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000298s ]
+NOTIC: [8] Undefined variable: user_id D:\Web\wamp\www\cdms\home\Lib\Action\FoodAction.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012863s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000554s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002571s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-03-05T14:17:46+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001533s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001708s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.007728s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','abidu','2014-03-05') [ RunTime:0.000812s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','abidu','2014-03-05')
+
+[ 2014-03-05T14:19:10+08:00 ] 127.0.0.1 /cdms/index.php/Food/index?food_id=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.033860s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.023058s ]
+SQL: SELECT * FROM `think_food` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: SELECT * FROM `think_comment` WHERE ( `food_id` = 1 )  [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009264s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000659s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000576s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002555s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2014-03-05T14:19:13+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.006612s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','asdf','2014-03-05') [ RunTime:0.000701s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','asdf','2014-03-05')
+
+[ 2014-03-05T14:26:53+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002114s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.012875s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','asdf','2014-03-05') [ RunTime:0.002092s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','asdf','2014-03-05')
+
+[ 2014-03-05T14:27:00+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.011260s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','asdf','2014-03-05') [ RunTime:0.000687s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','asdf','2014-03-05')
+
+[ 2014-03-05T14:27:05+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.011868s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','asdf','2014-03-05') [ RunTime:0.001210s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','asdf','2014-03-05')
+
+[ 2014-03-05T14:27:16+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.010222s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','asdf','2014-03-05') [ RunTime:0.000681s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`) VALUES ('1','1','asdf','2014-03-05')
+
+[ 2014-03-05T14:27:56+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.006284s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`,`state`,`toUser_id`,`toComment_id`) VALUES ('1','1','asdf','2014-03-05',0,0,0) [ RunTime:0.000644s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`,`state`,`toUser_id`,`toComment_id`) VALUES ('1','1','asdf','2014-03-05',0,0,0)
+
+[ 2014-03-05T14:28:10+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002304s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `think_comemnt` [ RunTime:0.009616s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comemnt`
+SQL: INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`,`state`,`toUser_id`,`toComment_id`) VALUES ('1','1','asdf','2014-03-05',0,0,0) [ RunTime:0.000635s ]
+ERR: 1146:Table 'cdms.think_comemnt' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_comemnt` (`user_id`,`food_id`,`content`,`date`,`state`,`toUser_id`,`toComment_id`) VALUES ('1','1','asdf','2014-03-05',0,0,0)
+
+[ 2014-03-05T14:29:25+08:00 ] 127.0.0.1 /cdms/index.php/Food/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.055816s ]
+SQL: INSERT INTO `think_comment` (`user_id`,`food_id`,`content`,`date`,`state`,`toUser_id`,`toComment_id`) VALUES (1,1,'asdf','2014-03-05',0,0,0) [ RunTime:0.124274s ]
+

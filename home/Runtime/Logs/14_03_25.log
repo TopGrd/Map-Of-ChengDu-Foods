@@ -1,0 +1,31 @@
+[ 2014-03-25T10:57:51+08:00 ] 0.0.0.0 /cdms/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022656s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.090783s ]
+SQL: SHOW COLUMNS FROM `think_food` [ RunTime:0.045042s ]
+SQL: SELECT * FROM `think_food` ORDER BY click DESC  [ RunTime:0.008426s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: user_id G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 168 行.
+NOTIC: [8] Undefined variable: icon G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 185 行.
+NOTIC: [8] Undefined variable: user_name G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 185 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 226 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' G:\xampp\htdocs\cdms\home\Runtime\Cache\80dd983517065d027eae9116806de03a.php 第 227 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.174123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174270s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001432s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001648s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006379s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002516s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002668s ]
+
